@@ -10,11 +10,10 @@
  	</head>
  	<body>
  	<div class="container">
-		<div>Welcome ${name}</div>
-		<hr>
+		
 		<h1>Your Todos</h1>
 		<table class="table">
-			<thead>
+			<thead> 
 				<tr>
 					<th>id</th>
 					<th>Description</th>
@@ -35,6 +34,7 @@
 				</c:forEach>
 			</tbody>
 		</table>
+		<a href="add-todo" class="btn btn-success">Add Todo</a>
 
 	</div>
  	
